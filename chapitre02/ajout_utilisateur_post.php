@@ -12,6 +12,12 @@
      // on peut l'écrire comme ça aussi:
     $lettre = isset($_POST['lettre']) ? $_POST['lettre'] : 0;
     $membre   = isset($_POST['membre']) ? $_POST['membre'] : 0;
+	
+	if(filter_var($login, FILTER_VALIDATE_BOOLEAN)){ 
+    echo $login.'<br>'; }else{ 
+    echo 'login non valide';    
+} 
+
 ?>
 
 <!DOCTYPE html>
