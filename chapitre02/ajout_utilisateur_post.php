@@ -7,7 +7,7 @@
     if (isset($_POST['sexe'])) 
     { //SI l'utilisateur a REMPLI le formulaire,
         $sexe = $_POST['sexe'];
-      // ALORS type est égal à ce que l'utilisateur a rempli. 
+      // ALORS le type est égal à ce que l'utilisateur a rempli. 
     }
      // on peut l'écrire comme ça aussi:
     $lettre = isset($_POST['lettre']) ? $_POST['lettre'] : 0;
